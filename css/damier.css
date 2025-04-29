@@ -1,0 +1,40 @@
+body{
+    background-color:rgba(69, 129, 224, 0.32) !important;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+.card{
+    border-radius: .9375rem;
+}
+.card-img-top{
+    height:55%;
+    padding: .5rem 2rem 0.3rem 2rem;
+}
+ 
+.liked {
+    color: rgb(168, 199, 250) !important;
+}
+.like-icon {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+ 
+.btn.w-50 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(143, 143, 143);
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 ;
+}
+.btn.w-50:hover{
+    color: rgb(168, 199, 250);
+}
